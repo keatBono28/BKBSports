@@ -1,0 +1,15 @@
+﻿.articleLeftColumn {
+	background-color: #f1f1f1;
+	float: left;
+	width: 23%;
+}
+.articleRightColumn {
+	background-color: #f1f1f1;
+	float: right;
+	width: 75.5%;
+}
+.article {
+	padding: 20px;
+	background-color: white;
+	margin-bottom: 1%;
+}

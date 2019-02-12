@@ -1,0 +1,42 @@
+﻿/*
+    Author:         K.Bonomo
+    Date Created:   January 19, 2019
+    Date Updated:   -----------
+    Team:           -----------
+    Purpose:        The purpose of this style sheet
+                    is to give the webpage its design
+                    and to format everything.
+*/
+body {
+    font-family: Arial;
+    padding: 10px;
+    background: #f1f1f1;
+}
+/*-------------MasterPage Designs-----------------*/
+/*Style the MasterNavBar*/
+.MasterNavBar {
+    overflow: hidden;
+    background-color: #1b0c90;
+}
+/*Links for MasterNavBar*/
+.MasterNavBar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+/*MasterNavBar, change color when user hovers*/
+.MasterNavBar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+
+
+
+
+
+
+

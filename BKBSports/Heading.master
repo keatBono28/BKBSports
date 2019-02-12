@@ -1,0 +1,34 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Heading.master.cs" Inherits="BKBSports_Heading" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <asp:ContentPlaceHolder ID="StyleSheet" runat="server">
+        <link rel="stylesheet" href="Styling/MasterStyle.css" type="text/css" />
+    </asp:ContentPlaceHolder>
+</head>
+
+
+
+
+<body>
+    <form id="form1" runat="server">
+    <div class="MasterNavBar">
+        <a href="HomePage.aspx">Home</a>
+        <a href="ArticleHome.aspx">Articles</a>
+        <a href="DiscussionBoards.aspx">Discussion Boards</a>
+        <a href="#about">----</a>
+    </div>
+    <div>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+    </div>
+    
+    
+    </form>
+</body>
+</html>

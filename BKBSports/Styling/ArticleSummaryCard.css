@@ -1,0 +1,30 @@
+﻿/*-----------Article Summary Card Designing-------------------------*/
+.articleDetailsLeftColumn {
+	float: left;
+	width: 45%;
+}
+.articleDetailsRightColumn {
+	float: right;
+	width: 55%;
+	text-align: end;
+}
+.articleDetailsRow:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+.articleSummaryCard {
+	padding: 20px;
+	background-color: white;
+	margin-bottom: 1%;
+}
+.articleAuthorInfo {
+	font-size: 85%;
+}
+.articleDetails {
+	font-size: 85%;
+}
+.ReadMore {
+	font-size: 85%;
+}
+
